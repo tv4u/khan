@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.TV4U" name="TV4U" version="1.4" provider-name="NAS">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simplejson" version="3.3.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Watch Live TV</summary>
+    <description lang="en">Watch Live TV.</description>
+    <disclaimer lang="en">None.</disclaimer>
+	<source>https://github.com/tv4u/Hasim</source>
+    <website>https://github.com/tv4u/Hasim.git</website>
+	</extension>
+</addon>
+
+<addon id="plugin.video.TV4U" name="TV4U" version="1.4" provider-name="NAS">
+        <extension point="xbmc.addon.repository" name="Nas Live Tv Addons">
+                <info compressed="true">https://github.com/tv4u/Hasim/blob/master/addons.xml</info>
+                <checksum>https://github.com/tv4u/Hasim/blob/master/addons.xml.md5</checksum>
+                <datadir zip="true">https://github.com/tv4u/Hasim/archive/master.zip</datadir>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+                <summary>Watch Live TV</summary>
+                <description>Watch Live TV</description>
+                <disclaimer></disclaimer>
+                <platform>all</platform>
+        </extension>
+</addon>
